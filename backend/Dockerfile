@@ -4,8 +4,8 @@ RUN useradd expense
 RUN mkdir /opt/server
 RUN chown expense:expense -R /opt/server
 WORKDIR /opt/server
-COPY package.json .
-COPY *.js .
+COPY package.json /opt/server
+COPY *.js /opt/server
 RUN npm install
 CMD [ "node","index.js" ]
 
