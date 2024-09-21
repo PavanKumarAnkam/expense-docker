@@ -1,3 +1,3 @@
 FROM alpine
 RUN yum install telnet -y
-CMD [ "sleep",20000 ]
+CMD [ "sleep","20000"]
