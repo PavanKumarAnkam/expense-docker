@@ -1,2 +1,2 @@
 #excluding debug directory 
-/debug
+./debug/
